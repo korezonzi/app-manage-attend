@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (app_manage_attend)" project-jdk-type="Python SDK" />
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="/Volumes/dev/practice/NSchool/ScalaBasic/scala-study" value="PREVIEW" />
+        <entry key="/Volumes/dev/practice/scala/edu-app" value="PREVIEW" />
+        <entry key="/Volumes/dev/practice/scala/play-todo-biz" value="PREVIEW" />
+        <entry key="/Volumes/dev/practice/scala/play/scala-play_handson/hads-on/play-handson" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaSbtSettings">
+    <option name="customVMPath" />
+  </component>
+</project>

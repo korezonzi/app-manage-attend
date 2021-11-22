@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    {% if user.is_authenticated %}
+      <p>こんにちは、{{user.username}}さん!</p>
+    {% else%}
+      <p>ログインしてません</p>
+      <a href="{% url 'login'%}">Log in</a>
+    {% endif %}
+  </body>
+</html>

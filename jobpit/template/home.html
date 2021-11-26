@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
+{% extends 'base.html' %}
+
+<!--親テンプレート(base.html)と同じtitleやcontentが使用出来る-->
+<!--titleなどは任意の文字でok-->
+{% block title %}Home{% endblock %}
+{% block content %}
     {% if user.is_authenticated %}
       <p>こんにちは、{{user.username}}さん!</p>
       <a href="{% url 'logout'%}">Log Out</a>
@@ -13,5 +12,4 @@
       <a href="{% url 'login'%}">Log in</a>
 <!--    レンダリングする際にロジックとして書く場合: endif(endfor)のような記述が必要-->
     {% endif %}
-  </body>
-</html>
+{% endblock %}

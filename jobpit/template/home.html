@@ -11,6 +11,7 @@
     {% else%}
       <p>ログインしてません</p>
       <a href="{% url 'login'%}">Log in</a>
+<!--    レンダリングする際にロジックとして書く場合: endif(endfor)のような記述が必要-->
     {% endif %}
   </body>
 </html>
